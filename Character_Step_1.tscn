@@ -1,0 +1,7 @@
+[gd_scene format=2]
+
+[node name="Character_Step_1" type="Node2D"]
+
+[node name="Polygons" type="Node2D" parent="."]
+
+[node name="Skeleton2D" type="Skeleton2D" parent="."]

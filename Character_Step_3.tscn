@@ -1,0 +1,97 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Character_layout_1.png" type="Texture" id=1]
+
+[node name="Character_Step_1" type="Node2D"]
+
+[node name="Polygons" type="Node2D" parent="."]
+
+[node name="left_upper_arm" type="Polygon2D" parent="Polygons"]
+position = Vector2( 42.4301, -185.19 )
+offset = Vector2( -271.146, -110.584 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 252.663, 97.0414, 252.071, 144.379, 291.124, 232.544, 328.402, 212.426, 298.225, 98.8166 )
+uv = PoolVector2Array( 252.663, 97.0414, 252.071, 144.379, 291.124, 232.544, 328.402, 212.426, 298.225, 98.8166 )
+
+[node name="body" type="Polygon2D" parent="Polygons"]
+position = Vector2( -1.16441, -2.29677 )
+offset = Vector2( -116.52, -242.652 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 98.2249, -1.18343, 92.3077, 33.7278, 42.0118, 56.213, 49.1124, 105.325, 57.3965, 133.728, 74.5562, 146.746, 75, 168.617, 50.8876, 199.408, 40.8284, 221.893, 4.14201, 291.716, -1.18343, 387.574, 86.3905, 401.775, 102.367, 297.041, 109.467, 279.29, 120.118, 296.45, 157.396, 399.408, 230.178, 392.899, 230.178, 292.899, 181.065, 228.994, 178.698, 203.55, 169.681, 165.426, 173.373, 146.154, 194.675, 128.994, 185.207, 89.3491, 171.598, 35.503, 144.379, 33.7278, 134.911, -3.5503, 115.385, 241.42, 105.325, 150.888, 150.888, 147.929, 129.586, 166.864, 119.527, 49.7041 )
+uv = PoolVector2Array( 98.2249, -1.18343, 92.3077, 33.7278, 42.0118, 56.213, 49.1124, 105.325, 57.3965, 133.728, 74.5562, 146.746, 75, 168.617, 50.8876, 199.408, 40.8284, 221.893, 4.14201, 291.716, -1.18343, 387.574, 86.3905, 401.775, 102.367, 297.041, 109.467, 279.29, 120.118, 296.45, 157.396, 399.408, 230.178, 392.899, 230.178, 292.899, 181.065, 228.994, 178.698, 203.55, 169.681, 165.426, 173.373, 146.154, 194.675, 128.994, 185.207, 89.3491, 171.598, 35.503, 144.379, 33.7278, 134.911, -3.5503, 115.385, 241.42, 105.325, 150.888, 150.888, 147.929, 129.586, 166.864, 119.527, 49.7041 )
+polygons = [ PoolIntArray( 6, 30, 20, 19, 27, 7 ), PoolIntArray( 5, 28, 30, 6 ), PoolIntArray( 28, 29, 30 ), PoolIntArray( 29, 21, 20, 30 ), PoolIntArray( 21, 22, 23, 31, 3, 4, 5, 28, 29 ), PoolIntArray( 31, 25, 24, 23 ), PoolIntArray( 31, 1, 2, 3 ), PoolIntArray( 1, 25, 31 ), PoolIntArray( 0, 1, 25, 26 ), PoolIntArray( 8, 9, 12 ), PoolIntArray( 14, 17, 18 ), PoolIntArray( 14, 15, 16, 17 ), PoolIntArray( 11, 12, 9, 10 ), PoolIntArray( 27, 19, 18 ), PoolIntArray( 27, 7, 8 ), PoolIntArray( 12, 13, 27, 8 ), PoolIntArray( 27, 13, 14, 18 ) ]
+bones = [ NodePath("Base"), PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0.5, 0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 0.5, 0.5, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0 ), NodePath("Base/Stomach"), PoolRealArray( 0, 0, 0, 0, 0, 0, 1, 0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.5, 1, 0, 0, 0, 0, 0, 0, 0.5, 0, 0, 1, 0 ), NodePath("Base/Stomach/Chest"), PoolRealArray( 0, 0.5, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0.5, 0, 0, 1, 1, 0.5, 1 ), NodePath("Base/Stomach/Chest/Neck"), PoolRealArray( 1, 0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.5, 1, 0, 0, 0, 0, 0 ), NodePath("Base/LeftLeg"), PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.5, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ), NodePath("Base/RightLeg"), PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ) ]
+internal_vertex_count = 5
+
+[node name="right_upper_arm" type="Polygon2D" parent="Polygons"]
+position = Vector2( -55.7622, -167.228 )
+offset = Vector2( -226.241, -166.865 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 200.592, 141.42, 191.124, 182.249, 242.604, 283.432, 297.633, 252.071, 252.663, 146.746 )
+uv = PoolVector2Array( 200.592, 141.42, 191.124, 182.249, 242.604, 283.432, 297.633, 252.071, 252.663, 146.746 )
+
+[node name="left_lower_arm" type="Polygon2D" parent="Polygons"]
+position = Vector2( 70.5705, -89.9913 )
+offset = Vector2( -426.817, -179.439 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 473.373, 126.035, 401.183, 176.331, 426.627, 222.485, 513.609, 143.195 )
+uv = PoolVector2Array( 473.373, 126.035, 401.183, 176.331, 426.627, 222.485, 513.609, 143.195 )
+
+[node name="head" type="Polygon2D" parent="Polygons"]
+position = Vector2( 2.41818, -225.918 )
+offset = Vector2( -123.226, -470.808 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 93.6937, 395.496, 56.7568, 485.586, 195.495, 518.919, 216.216, 409.91 )
+uv = PoolVector2Array( 93.6937, 395.496, 56.7568, 485.586, 195.495, 518.919, 216.216, 409.91 )
+
+[node name="weapon" type="Polygon2D" parent="Polygons"]
+position = Vector2( 49.54, -131.528 )
+rotation = -0.0317038
+offset = Vector2( -329.247, -73.5866 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 239.362, 5.31915, 230.851, 98.4043, 300.532, 96.2766, 362.234, 109.574, 470.745, 84.0426, 510.638, 82.9787, 492.553, -10.1064 )
+uv = PoolVector2Array( 239.362, 5.31915, 230.851, 98.4043, 300.532, 96.2766, 362.234, 109.574, 470.745, 84.0426, 510.638, 82.9787, 492.553, -10.1064 )
+
+[node name="right_hand" type="Polygon2D" parent="Polygons"]
+position = Vector2( 33.4318, -113.379 )
+offset = Vector2( -421.381, -119.669 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 411.702, 97.3404, 453.723, 84.5745, 469.149, 104.255, 432.979, 142.553, 403.723, 109.043 )
+uv = PoolVector2Array( 411.702, 97.3404, 453.723, 84.5745, 469.149, 104.255, 432.979, 142.553, 403.723, 109.043 )
+
+[node name="right_lower_arm" type="Polygon2D" parent="Polygons"]
+position = Vector2( -22.2332, -82.8065 )
+offset = Vector2( -351.377, -160.279 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 328.402, 141.42, 333.136, 191.716, 372.781, 215.976, 428.402, 136.095, 401.183, 113.609 )
+uv = PoolVector2Array( 328.402, 141.42, 333.136, 191.716, 372.781, 215.976, 428.402, 136.095, 401.183, 113.609 )
+
+[node name="left_foot" type="Polygon2D" parent="Polygons"]
+position = Vector2( 114.741, 297.636 )
+offset = Vector2( -419.089, -454.329 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 386.391, 436.095, 446.154, 434.32, 453.846, 459.172, 488.757, 475.74, 490.533, 509.467, 387.574, 504.734 )
+uv = PoolVector2Array( 386.391, 436.095, 446.154, 434.32, 453.846, 459.172, 488.757, 475.74, 490.533, 509.467, 387.574, 504.734 )
+
+[node name="right_foot" type="Polygon2D" parent="Polygons"]
+position = Vector2( -65.1984, 292.496 )
+offset = Vector2( -316.951, -450.46 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 281.657, 430.178, 346.746, 450.888, 345.562, 497.633, 218.343, 514.201, 219.527, 464.497 )
+uv = PoolVector2Array( 281.657, 430.178, 346.746, 450.888, 345.562, 497.633, 218.343, 514.201, 219.527, 464.497 )
+
+[node name="right_lower_leg" type="Polygon2D" parent="Polygons"]
+position = Vector2( -58.1572, 127.349 )
+offset = Vector2( -353.173, -263.261 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 301.183, 233.728, 286.982, 425.444, 375.74, 456.805, 395.858, 225.444 )
+uv = PoolVector2Array( 301.183, 233.728, 286.982, 425.444, 375.74, 456.805, 395.858, 225.444 )
+
+[node name="left_lower_leg" type="Polygon2D" parent="Polygons"]
+position = Vector2( 64.0492, 116.847 )
+offset = Vector2( -430.409, -277.631 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 391.124, 257.396, 464.497, 239.053, 528.402, 458.58, 456.213, 464.497 )
+uv = PoolVector2Array( 391.124, 257.396, 464.497, 239.053, 528.402, 458.58, 456.213, 464.497 )
+
+[node name="Skeleton2D" type="Skeleton2D" parent="."]
